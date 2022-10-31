@@ -1,0 +1,35 @@
+.under__banner{
+    text-align: center;
+    padding: 2.5rem;
+}
+.under__banner__title{
+    color: #8d0606;
+    font-family: Pacifico, cursiva;
+}
+.under__banner__paragraph{
+    color:#595959;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0) {
+    .under{
+        padding: 2.5rem 1rem;
+   }
+   .under{
+        font-size: 2rem;
+   }
+   .under__banner__paragraph{
+    font-size: 1rem;
+   }
+}
+@media screen and (min-width: 768px) {
+    .under{
+        padding: 2.5rem;
+     }
+     .under__banner__title{
+        font-size: 3.2rem;
+     }
+     .under__banner__paragraph{
+        font-size: 1.75rem;
+     }
+}
